@@ -10,5 +10,5 @@ jobs:
         with:
           node-version: '13.x'
       - run: npm install
-      - run: npm build
-      - run: npm serve
+      - run: npm run build
+      - run: npm run serve
